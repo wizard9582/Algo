@@ -18,8 +18,6 @@ public class q0000 {
 	}
 }
 
-
-
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
