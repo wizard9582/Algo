@@ -5,8 +5,8 @@
 2021.01.15 Start
 
 * OJ 사이트
-  * Backjun (백준) - https://www.acmicpc.net/user/qkfskan82
-  * SW Expert Acadmey - https://swexpertacademy.com/main/main.do    (삼성 SW역량테스트)
+  * Baekjoon (백준) - https://www.acmicpc.net/user/qkfskan82
+  * SW Expert Academy - https://swexpertacademy.com/main/main.do    (삼성 SW역량테스트)
   * 정보 올림피아드 - http://www.jungol.co.kr/
  
  ////////// ////////// ////////// ////////// ////////// ////////// ////////// ////////// ////////// //////////
