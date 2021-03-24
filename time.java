@@ -3,7 +3,7 @@
 //long start = System.currentTimeMillis(); //시작하는 시점 계산
 
 //long end = System.currentTimeMillis(); 
-//System.out.println( "실행 시간 : " + ( end - start )/1000.0 +”초”);
+//System.out.println( "실행 시간 : " + ((end - start)/1000.0) +”초”);
 
 
 
