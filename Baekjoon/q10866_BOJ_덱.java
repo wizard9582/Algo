@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q10845 {
+public class q10866_BOJ_덱 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 
@@ -21,11 +21,23 @@ public class q10845 {
 			st = new StringTokenizer(br.readLine());
 			str = st.nextToken();
 			
-			if(str.equals("push")) {
+			if(str.equals("push_front")) {
 				queue[back] = Integer.parseInt(st.nextToken());
 				back++;
 				
-			}else if(str.equals("pop")) {
+			}else if(str.equals("push_back")) {
+				queue[back] = Integer.parseInt(st.nextToken());
+				back++;
+				
+			}else if(str.equals("pop_front")) {
+				if(front == back) {
+					sb.append("-1").append("\n");
+				}else {
+					sb.append(queue[front]).append("\n");
+					front ++;
+				}
+				
+			}else if(str.equals("pop_back")) {
 				if(front == back) {
 					sb.append("-1").append("\n");
 				}else {

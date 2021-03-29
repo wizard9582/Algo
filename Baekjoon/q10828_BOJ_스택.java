@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q10828 {
+public class q10828_BOJ_스택 {
 	static int[] stack = new int[10000];
 	static int size = 0;
 	static StringBuilder sb = new StringBuilder();
