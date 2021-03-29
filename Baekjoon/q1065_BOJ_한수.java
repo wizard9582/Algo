@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q1065 {
+public class q1065_BOJ_한수 {
 
 	public static int check(int a) {
 		

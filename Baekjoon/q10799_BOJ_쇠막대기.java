@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q10799 {
+public class q10799_BOJ_쇠막대기 {
 	static char[] stack = new char[60000];
 	static int idx = 0;
 	

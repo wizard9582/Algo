@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q10807 {
+public class q10807_BOJ_개수새기 {
 public static void main(String[] args) throws NumberFormatException, IOException {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	int N = Integer.parseInt(br.readLine());

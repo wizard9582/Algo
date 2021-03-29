@@ -3,7 +3,7 @@ package backjun;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class q10809 {
+public class q10809_BOJ_알파벳찾기 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();

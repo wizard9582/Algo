@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.StringTokenizer;
 
-public class q10757 {
+public class q10757_BOJ_큰수A+B {
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

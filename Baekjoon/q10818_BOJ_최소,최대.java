@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q10818 {
+public class q10818_BOJ_최소,최대 {
 	
 	public static void main(String[] args) {
 		

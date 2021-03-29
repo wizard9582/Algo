@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class q10816 {
+public class q10816_BOJ_숫자카드2 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	
