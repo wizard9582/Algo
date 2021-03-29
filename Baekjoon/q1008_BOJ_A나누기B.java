@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q1001 {
+public class q1008_BOJ_A나누기B {
 	
 	public static void main(String[] args) {
 		
@@ -11,7 +11,6 @@ public class q1001 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		System.out.println(a-b);
+		System.out.println((double)a/b);
 	}
-
 }

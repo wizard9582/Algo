@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1062 {
+public class q1062_BOJ_가르침 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int N, K, answer;

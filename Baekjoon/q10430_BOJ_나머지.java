@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q10430 {
+public class q10430_BOJ_나머지 {
 
 	public static void main(String[] args) {
 

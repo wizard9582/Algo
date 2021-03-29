@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1012 {
+public class q1012_BOJ_유기농배추 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };

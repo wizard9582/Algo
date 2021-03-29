@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1063 {
+public class q1063_BOJ_킹 {
 	static StringTokenizer st;
 	static int[][] delta = { { 1, 0 }, { -1, 0 }, { 0, -1 }, { 0, 1 }, { 1, 1 }, { -1, 1 }, { 1, -1 }, { -1, -1 } };
 	static int kingX, kingY, stoneX, stoneY;

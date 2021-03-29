@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q10163 {
+public class q10163_BOJ_색종이 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 

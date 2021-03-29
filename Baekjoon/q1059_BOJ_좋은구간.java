@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class q1059 {
+public class q1059_BOJ_좋은구간 {
 	static StringTokenizer st;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

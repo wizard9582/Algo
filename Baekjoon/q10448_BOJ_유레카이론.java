@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q10448 {
+public class q10448_BOJ_유레카이론 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int[] tn = new int[50];

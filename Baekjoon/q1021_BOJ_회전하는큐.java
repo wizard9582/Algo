@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.ArrayList;
 
-public class q1021 {
+public class q1021_BOJ_회전하는큐 {
 	static StringTokenizer st;
 
 	public static void main(String[] args) throws IOException {

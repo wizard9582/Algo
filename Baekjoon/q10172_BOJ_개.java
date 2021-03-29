@@ -1,6 +1,6 @@
 package backjun;
 
-public class q10172 {
+public class q10172_BOJ_개 {
 	
 	public static void main(String[] args) {
 		System.out.println("|\\_/|");
