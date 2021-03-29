@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q10869 {
+public class q10869_BOJ_사칙연산 {
 	
 	public static void main(String[] args) {
 		
