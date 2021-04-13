@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q2564 {
+public class q2564_BOJ_경비원 {
 	static StringTokenizer st;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
