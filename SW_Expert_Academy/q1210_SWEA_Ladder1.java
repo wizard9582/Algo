@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1210 {
+public class q1210_SWEA_Ladder1 {
 	static int[][] arr = new int[102][102];
 
 	public static void main(String[] args) throws IOException {

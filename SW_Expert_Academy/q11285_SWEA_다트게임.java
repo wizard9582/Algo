@@ -2,7 +2,7 @@ package swex;
 
 import java.util.Scanner;
 
-class q11285 {
+class q11285_SWEA_다트게임 {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		int T, TC, sum; 

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class q11112 {
+class q11112_SWEA_셀로판지 {
 	public static void main(String args[]) throws Exception {
 		int T, a, b, c, d, p, q, r;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

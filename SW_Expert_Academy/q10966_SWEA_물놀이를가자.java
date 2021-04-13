@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class q10966 {
+public class q10966_SWEA_물놀이를가자 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };

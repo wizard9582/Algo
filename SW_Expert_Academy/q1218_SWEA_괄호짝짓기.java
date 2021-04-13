@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q1218 {
+public class q1218_SWEA_괄호짝짓기 {
 	static int[] stack;
 	static int size = 0;
 

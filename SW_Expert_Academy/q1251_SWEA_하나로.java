@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class q1251 {
+public class q1251_SWEA_하나로 {
 	static StringBuilder sb = new StringBuilder();
 	static long[][] island;
 	static boolean[] visit;

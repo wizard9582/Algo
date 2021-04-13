@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class q1238 {
+public class q1238_SWEA_Contact {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	
