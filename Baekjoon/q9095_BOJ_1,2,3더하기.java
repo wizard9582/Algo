@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q9095 {
+public class q9095_BOJ_1,2,3더하기 {
 	static int count;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

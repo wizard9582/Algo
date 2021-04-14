@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class q9205 {
+public class q9205_BOJ_맥주마시면서걸어가기 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	

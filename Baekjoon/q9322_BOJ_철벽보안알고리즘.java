@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class q9322 {
+public class q9322_BOJ_철벽보안알고리즘 {
 	static StringBuilder sb = new StringBuilder();
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
