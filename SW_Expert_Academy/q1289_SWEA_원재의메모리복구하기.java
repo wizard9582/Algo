@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-	public class q1289 {
+	public class q1289_SWEA_원재의메모리복구하기  {
 	    public static void main(String[] args) throws NumberFormatException, IOException {
 	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	        int T = Integer.parseInt(br.readLine());

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q1868 {
+public class q1868_SWEA_파핑파핑지뢰찾기{
 	static char[][] map;
 	static int[][] numMap;
 	static boolean[][] visitMap;

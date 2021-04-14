@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1873 {
+public class q1873_SWEA_상호의배틀필드 {
 	static StringBuilder sb = new StringBuilder();
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 	static char[] tank = { '^', 'v', '<', '>' };

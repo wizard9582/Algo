@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-public class q1861 {
+public class q1861_SWEA_정사각형방 {
 	static int[][] room;
 	static int[] move;
 	static int N;

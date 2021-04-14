@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q1954 {
+public class q1954_SWEA_달팽이숫자 {
 	static StringBuilder sb = new StringBuilder();
 	static int[][] delta = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
 

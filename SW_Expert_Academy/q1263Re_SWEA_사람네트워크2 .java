@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class q1263Re {
+public class q1263Re_SWEA_사람네트워크2  {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class q1767 {
+public class q1767_SWEA_프로세서연결하기 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };

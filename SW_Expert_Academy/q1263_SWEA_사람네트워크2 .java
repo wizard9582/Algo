@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1263 {
+public class q1263_SWEA_사람네트워크2 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int inf = 1000000;
