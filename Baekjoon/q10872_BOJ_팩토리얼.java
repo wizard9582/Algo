@@ -4,19 +4,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q1094 {
+public class q10872_BOJ_ÆÑÅä¸®¾ó {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int num = Integer.parseInt(br.readLine());	
 		
-		int N = Integer.parseInt(br.readLine());
+		int answer = facto(num);
 		
-		int answer = 0;
-		
-		for(int i = 0; i < 7; i ++) {
-			if((N & (1 << i)) > 0) {
-				answer ++;
-			}
-		}
 		System.out.println(answer);
+		
+		}
+	
+	public static int facto (int n) {
+		
+		if(n == 0) return 1;
+		
+		return n*(facto(n-1));
 	}
 }

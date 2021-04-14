@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q10871 {
+public class q10871_BOJ_X보다작은수 {
  
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
