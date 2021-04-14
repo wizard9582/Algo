@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q5215 {
+public class q5215_SWEA_햄버거다이어트 {
 	static int Max, num, answer;
 	static int[] food;
 	static int[] favorite;

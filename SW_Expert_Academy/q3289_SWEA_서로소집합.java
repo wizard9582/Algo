@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q3289 {
+public class q3289_SWEA_서로소집합 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int N, M;

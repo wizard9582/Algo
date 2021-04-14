@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class q3234 {
+public class q3234_SWEA_준환이의양팔저울 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int N, answer, total;

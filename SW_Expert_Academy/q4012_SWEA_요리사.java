@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q4012 {
+public class q4012_SWEA_요리사 {
 	static int[][] food;
 	static int half, N, result, totalCount, maxCount;
 

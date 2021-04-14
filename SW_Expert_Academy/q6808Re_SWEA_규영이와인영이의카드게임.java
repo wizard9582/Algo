@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class q6808Re {
+public class q6808Re_SWEA_규영이와인영이의카드게임  {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int win;

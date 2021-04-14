@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q3307 {
+public class q3307_SWEA_최장증가부분수열 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 

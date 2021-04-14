@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q4008 {
+public class q4008_SWEA_숫자만들기 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int N, max, min;
