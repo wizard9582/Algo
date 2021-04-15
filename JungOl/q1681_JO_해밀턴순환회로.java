@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1681 {
+public class q1681_JO_해밀턴순환회로 {
 	static StringTokenizer st;
 	static int N, answer = Integer.MAX_VALUE;
 	static int[][] map;

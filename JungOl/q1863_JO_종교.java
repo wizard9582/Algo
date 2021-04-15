@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1863 {
+public class q1863_JO_종교 {
 	static StringTokenizer st;
 	static int[] parent;
 	static int[] rank;

@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class q1828 {
+public class q1828_JO_냉장고 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 
