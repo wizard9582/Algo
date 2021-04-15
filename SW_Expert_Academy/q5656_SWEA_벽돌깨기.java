@@ -48,8 +48,8 @@ public class q5656_SWEA_벽돌깨기 {
 			return;
 		}
 		int[][] save = new int[H][W];
-		for (int w = 0; w < W; w++) {
-			copy(map, save);
+		for (int w = 0; w < W; w++) {		
+			copy(map, save);				
 			shoot(w);
 			dfs(count + 1);
 			copy(save, map);
@@ -67,7 +67,7 @@ public class q5656_SWEA_벽돌깨기 {
 
 	static void copy(int[][] from, int[][] to) {
 		for (int h = 0; h < H; h++) {
-			to[h] = from[h].clone();
+			to[h] = from[h].clone(); 
 		}
 	}
 
@@ -83,9 +83,9 @@ public class q5656_SWEA_벽돌깨기 {
 		return count;
 	}
 
-	static void shoot(int w) {
-		for (int h = 0; h < H; h++) {
-			if (map[h][w] != 0) {
+	static void shoot(int w) {			
+		for (int h = 0; h < H; h++) {	
+			if (map[h][w] != 0) {		
 				boom(h, w);
 				return;
 			}
@@ -122,8 +122,8 @@ public class q5656_SWEA_벽돌깨기 {
 	static void gravity() {
 		Queue<Integer> queue;
 
-		for (int w = 0; w < W; ++w) {
-			queue = new LinkedList<>();
+		for (int w = 0; w < W; ++w) {   //  0 000001000300201 <-H -> 1,2,3,1
+			queue = new LinkedList<>();	//    000000000001321
 
 			for (int h = H - 1; h >= 0; --h) {
 				if (map[h][w] > 0) {
