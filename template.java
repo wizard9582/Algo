@@ -24,7 +24,6 @@ public class q0000_BOJ_Name {
 		
 		for(int tc = 1; tc <= T ; tc++){
 			answer = 0;
-			
 			sb.append("#").append(tc).append(" ").append(answer).append("\n");
 		}
 		
