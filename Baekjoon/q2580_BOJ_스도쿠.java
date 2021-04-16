@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q2580 {
+public class q2580_BOJ_스도쿠 {
 	static int[][] sudoku = new int[10][10];
 	static StringBuilder sb = new StringBuilder();
 
