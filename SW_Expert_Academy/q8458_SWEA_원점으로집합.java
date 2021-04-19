@@ -45,9 +45,6 @@ public class q8458_SWEA_원점으로집합 {
 					answer++;
 					gap -= answer;
 				}
-
-				gap *= -1;
-
 				answer = gap % 2 == 0 ? answer : (answer % 2 == 0 ? answer + 1 : answer + 2);
 
 				sb.append("#").append(tc).append(" ").append(answer).append("\n");
