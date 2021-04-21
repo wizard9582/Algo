@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class q11000 {
+public class q11000_BOJ_강의실배정 {
 	static StringTokenizer st;
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
