@@ -122,8 +122,8 @@ public class q5656_SWEA_벽돌깨기 {
 	static void gravity() {
 		Queue<Integer> queue;
 
-		for (int w = 0; w < W; ++w) {   //  0 000001000300201 <-H -> 1,2,3,1
-			queue = new LinkedList<>();	//    000000000001321
+		for (int w = 0; w < W; ++w) {   
+			queue = new LinkedList<>();	
 
 			for (int h = H - 1; h >= 0; --h) {
 				if (map[h][w] > 0) {
