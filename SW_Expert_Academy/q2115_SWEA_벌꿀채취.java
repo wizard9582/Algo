@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 public class q2115_SWEA_벌꿀채취 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
-	static int N, M, C, maxHoney, answer;
+	static int N, M, C, answer;
 	static int[][] honey;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {

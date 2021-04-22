@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q1987 {
+public class q1987_BOJ_알파벳 {
 	static StringTokenizer st;
-	static int R, C, answer = 1;
+	static int R, C, answer = 0;
 	static char[][] map;
 	static boolean[] visit = new boolean[26];
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
@@ -34,7 +34,9 @@ public class q1987 {
 	}
 
 	static void search(int x, int y, int count) {
-
+		// 쓸데없이 계속 찾는 경우 가지치기 가능
+		// if(answer == 26) return;
+		
 		answer = Math.max(answer, count);
 
 		for (int i = 0; i < 4; i++) {
