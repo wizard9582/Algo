@@ -9,7 +9,7 @@ public class q7699_SWEA_수지의수지맞는여행 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int R, C, answer;
-	static char[][] map;
+	static int[][] map;
 	static boolean[] visit;
 	static int[][] delta = { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
 
@@ -24,16 +24,16 @@ public class q7699_SWEA_수지의수지맞는여행 {
 			R = Integer.parseInt(st.nextToken());
 			C = Integer.parseInt(st.nextToken());
 
-			map = new char[R][C];
+			map = new int[R][C];
 			visit = new boolean[26];
 
 			for (int r = 0; r < R; r++) {
 				String input = br.readLine();
 				for (int c = 0; c < C; c++) {
-					map[r][c] = input.charAt(c);
+					map[r][c] = input.charAt(c) - 'A';
 				}
 			}
-			visit[map[0][0] - 'A'] = true;
+			visit[map[0][0]] = true;
 			dfs(0, 0, 1);
 
 			sb.append("#").append(tc).append(" ").append(answer).append("\n");
@@ -53,10 +53,10 @@ public class q7699_SWEA_수지의수지맞는여행 {
 			int nY = y + delta[i][1];
 
 			if (isIn(nX, nY)) {
-				if (!visit[map[nX][nY] - 'A']) {
-					visit[map[nX][nY] - 'A'] = true;
+				if (!visit[map[nX][nY]]) {
+					visit[map[nX][nY]] = true;
 					dfs(nX, nY, count + 1);
-					visit[map[nX][nY] - 'A'] = false;
+					visit[map[nX][nY]] = false;
 				}
 			}
 		}
