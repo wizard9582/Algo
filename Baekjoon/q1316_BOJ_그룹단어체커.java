@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q1316 {
+public class q1316_BOJ_그룹단어체커 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = Integer.parseInt(sc.nextLine());
