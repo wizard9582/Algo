@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-public class q1764 {
+public class q1764_BOJ_듣보잡 {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	
