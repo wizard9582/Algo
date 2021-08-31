@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q8958 {
+public class q8958_BOJ_OX퀴즈 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int T = Integer.parseInt(sc.nextLine());

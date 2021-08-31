@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class q9019 {
+public class q9019_BOJ_DSLR {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static boolean[] map;

@@ -2,7 +2,7 @@ package backjun;
 
 import java.util.Scanner;
 
-public class q8393 {
+public class q8393_BOJ_합 {
 
 	public static void main(String[] args) {
 		
