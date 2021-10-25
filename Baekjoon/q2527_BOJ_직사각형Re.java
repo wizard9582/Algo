@@ -1,11 +1,11 @@
-package backjun;
+package baekjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q2527 {
+public class q2527_BOJ_직사각형Re {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	
@@ -26,9 +26,9 @@ public class q2527 {
 			
 			if(B3 < A1 || A3 < B1 || B4 < A2 || A4 < B2) {
 				sb.append("d\n");
-			}else if((A3 == B1 &&(A2 == B4 || A4 == B2))||(B3 == A1 &&(B2 == A4 || B4 == A2))) {
+			}else if((A3 == B1 &&(A2 == B4 || A4 == B2))||(A1 == B3 &&(A2 == B4 || A4 == B2)) ||(A2 == B4 &&(A1 == B3 || A3 == B1))||(A4 == B2 &&(A1 == B3 || A3 == B1))) {
 				sb.append("c\n");
-			}else if((A3 == B1 && A4 != B2) || (A1 == B3 && A4 != B2) || (A3 != B1 && A2 == B4) || (A1 != B3 && A2 == B4)) {
+			}else if((A3 == B1 && A4 != B2) || (A4 == B2 && A3 != B1) || (A1 == B3 && A2 != B4) || (A2 == B4 && A1 != B3)) {
 				sb.append("b\n");
 			}else {
 				sb.append("a\n");

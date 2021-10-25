@@ -1,10 +1,10 @@
-package backjun;
+package baekjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class q2160 {
+public class q2160_BOJ_그림비교Re {
 	static boolean[][] map;
 	static int N;
 
@@ -34,7 +34,7 @@ public class q2160 {
 				same[n][m] = check(n * 5, m * 5);
 			}
 		}
-		int Max = 0;
+		int Max = -1;
 		int answer1 = 0;
 		int answer2 = 0;
 		for (int n = 0; n < N; n++) {
