@@ -21,7 +21,7 @@ public class q0000_BOJ_Name {
 		
 		int T = Integer.parseInt(br.readLine());
 		
-		for(int tc = 1; tc <= T ; tc++){
+		for (int tc = 1; tc <= T ; tc++) {
 			int answer = 0;
 			sb.append("#").append(tc).append(" ").append(answer).append("\n");
 		}
