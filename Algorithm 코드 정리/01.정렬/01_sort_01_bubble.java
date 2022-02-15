@@ -3,10 +3,10 @@ package blog;
 import java.util.Arrays;
 import java.util.Random;
 
-public class sort_01_bubble {
+public class 01_sort_01_bubble {
 	static int size = 100;
 	static int bound = 1000;
-	// µ¥ÀÌÅÍÀÇ °¹¼ö¿Í ¹üÀ§ ¼³Á¤
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 	public static void main(String[] args) {
 		int[] data = new int[size];
@@ -16,12 +16,12 @@ public class sort_01_bubble {
 		for (int i = 0; i < size; i++) {
 			data[i] = random.nextInt(bound);
 		}
-		// ·£´ý °ª ³Ö¾îÁÖ±â
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½Ö±ï¿½
 
 		System.out.println(Arrays.toString(data));
-		// ·£´ýÇÏ°Ô µé¾î°£ µ¥ÀÌÅÍ È®ÀÎ
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½î°£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 
-		/////////////////////// ¹öºíÁ¤·Ä ±¸Çö////////////////////////////
+		/////////////////////// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½////////////////////////////
 		for (int find = size - 1; find >= 0; find--) {
 			for (int now = 0; now < find; now++) {
 				int next = now + 1;
@@ -36,8 +36,8 @@ public class sort_01_bubble {
 		//////////////////////////////////////////////////////
 
 		System.out.println(Arrays.toString(data));
-		System.out.println("ºñ±³È½¼ö : " + count);
-		// Á¤·Ä ÈÄ µ¥ÀÌÅÍ¿Í ºñ±³È½¼ö È®ÀÎ
+		System.out.println("ï¿½ï¿½È½ï¿½ï¿½ : " + count);
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ ï¿½ï¿½È½ï¿½ï¿½ È®ï¿½ï¿½
 
 		int[][] data2 = { { 1, 1 }, { 3, 1 }, { 5, 1 }, { 7, 1 }, { 9, 1 }, { 1, 2 }, { 2, 2 }, { 4, 2 }, { 1, 3 },
 				{ 7, 2 }, { 9, 3 }, { 3, 3 }, { 4, 3 }, { 8, 3 }, { 6, 3 } };
@@ -53,8 +53,8 @@ public class sort_01_bubble {
 		}
 		
 		for (int i = 0; i < 15; i++) {
-			System.out.printf("Á¤·ÄµÈ ¼ö : %d, stable: %d\n", data2[i][0], data2[i][1]);
+			System.out.printf("ï¿½ï¿½ï¿½Äµï¿½ ï¿½ï¿½ : %d, stable: %d\n", data2[i][0], data2[i][1]);
 		}
-		//stable Á¤·ÄÀÓ!
+		//stable ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!
 	}
 }
