@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class sort_02_selection {
+public class sort_03_insertion {
 	static int size = 10;
 	static int bound = 1000;
 	// 데이터의 갯수와 범위 설정
@@ -19,18 +19,20 @@ public class sort_02_selection {
 		System.out.println(Arrays.toString(data));
 		// 랜덤하게 들어간 데이터 확인
 
-		/////////////////////// 선택정렬 구현////////////////////////////
-		for (int find = 0; find < size; find++) {
-			int minIdx = find;
-			for (int now = find; now < size; now++) {
-				if(data[now] < data[minIdx]) {
-					minIdx = now;
+		/////////////////////// 삽입정렬 구현////////////////////////////
+		for (int s = 0; s < size; s++) {
+			int now = s;
+			while (now > 0) {
+				if(data[now] < data[now-1]) {
+					int save = data[now];
+					data[now] = data[now-1];
+					data[now-1] = save;
+				}else {
+					break;
 				}
+				now--;
 				count++;
 			}
-			int save = data[find];
-			data[find] = data[minIdx];
-			data[minIdx] = save;
 		}
 		//////////////////////////////////////////////////////
 
@@ -41,17 +43,19 @@ public class sort_02_selection {
 		int[][] data2 = { { 1, 1 }, { 3, 1 }, { 5, 1 }, { 7, 1 }, { 9, 1 }, { 1, 2 }, { 2, 2 }, { 4, 2 }, { 1, 3 },
 				{ 7, 2 }, { 9, 3 }, { 3, 3 }, { 4, 3 }, { 8, 3 }, { 6, 3 } };
 		
-		for (int find = 0; find < 15; find++) {
-			int minIdx = find;
-			for (int now = find; now < 15; now++) {
-				if(data2[now][0] < data2[minIdx][0]) {
-					minIdx = now;
+		for (int s = 0; s < 15; s++) {
+			int now = s;
+			while (now > 0) {
+				if(data2[now][0] < data2[now-1][0]) {
+					int[] save = data2[now].clone();
+					data2[now] = data2[now-1].clone();;
+					data2[now-1] = save;
+				}else {
+					break;
 				}
+				now--;
 				count++;
 			}
-			int[] save = data2[find].clone();
-			data2[find] = data2[minIdx].clone();
-			data2[minIdx] = save.clone();
 		}
 
 		for (int i = 0; i < 15; i++) {
