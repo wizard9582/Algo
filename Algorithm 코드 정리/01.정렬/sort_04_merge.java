@@ -1,4 +1,3 @@
-package blog;
 
 import java.util.ArrayList;
 import java.util.Random;
