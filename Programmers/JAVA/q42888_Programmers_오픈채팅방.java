@@ -14,8 +14,7 @@ public class q42888_Programmers_오픈채팅방 {
 	}
 
 	private static String[] solution(String[] record) {
-
-		Map<String, Integer> userMap = new HashMap<String, Integer>();
+        Map<String, Integer> userMap = new HashMap<String, Integer>();
 		ArrayList<String> userNick = new ArrayList<String>();
 		int[][] log = new int[record.length][2];
 		int index = 0;
@@ -66,5 +65,5 @@ public class q42888_Programmers_오픈채팅방 {
 		}
 
 		return answer;
-	}
+    }
 }
