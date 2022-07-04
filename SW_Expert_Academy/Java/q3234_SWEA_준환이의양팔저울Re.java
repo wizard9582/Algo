@@ -1,11 +1,11 @@
-package swex;
+package swea;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class q3234_SWEA_준환이의양팔저울 {
+public class q3234_SWEA_준환이의양팔저울Re {
 	static StringTokenizer st;
 	static StringBuilder sb = new StringBuilder();
 	static int N, answer, total;
@@ -29,7 +29,7 @@ public class q3234_SWEA_준환이의양팔저울 {
 			}
 			total /= 2;
 
-			makePermutation(0, new int[N], new boolean[N]);
+			makePermutation(0, new boolean[N], 0, 0);
 
 			sb.append("#").append(tc).append(" ").append(answer).append("\n");
 		}
@@ -37,40 +37,33 @@ public class q3234_SWEA_준환이의양팔저울 {
 		System.out.println(sb);
 	}
 
-	static void makePermutation(int count, int[] choosed, boolean[] visited) {
-		if (count == N) {
-			check(1, choosed, choosed[0], 0);
-			return;
-		}
-		for (int i = 0; i < N; i++) {
-			if (!visited[i]) {
-				visited[i] = true;
-				choosed[count] = gram[i];
-				makePermutation(count + 1, choosed, visited);
-				visited[i] = false;
-			}
-		}
-	}
+	static void makePermutation(int count, boolean[] visited, int left, int right) {
+		// System.out.println(count + "선택됨," + left + " : " + right);
 
-	static void check(int count, int[] choosed, int left, int right) {
 		if (count == N) {
 			answer++;
 			return;
 		}
+
 		if (total < left) {
 			int num = 1;
-			for (int i = 0; i < N - count; i++) {
+			for (int i = 1; i <= N - count; i++) {
 				num *= 2;
+				num *= i;
 			}
 			answer += num;
 			return;
 		}
 
-		if (left >= right + choosed[count]) {
-
-			check(count + 1, choosed, left, right + choosed[count]);
+		for (int i = 0; i < N; i++) {
+			if (!visited[i]) {
+				visited[i] = true;
+				makePermutation(count + 1, visited, left + gram[i], right);
+				if (right + gram[i] <= left) {
+					makePermutation(count + 1, visited, left, right + gram[i]);
+				}
+				visited[i] = false;
+			}
 		}
-		check(count + 1, choosed, left + choosed[count], right);
-
 	}
 }
