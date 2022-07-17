@@ -16,12 +16,12 @@ def solution(nums):
 
 
     def makePrimeNumber():
-        number = [0 for i in range(50_001)]
+        number = [0 for i in range(3_001)]
         number[1] = 1
-        for i in range(2,50_001):
+        for i in range(2,3_001):
             if(number[i] == 0):
                 j = i * 2
-                while(j < 50_001):
+                while(j < 3_001):
                     number[j] = 1
                     j += i
         return number
