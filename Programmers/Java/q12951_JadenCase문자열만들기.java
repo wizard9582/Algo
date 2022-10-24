@@ -8,6 +8,8 @@ public class q12951_JadenCase문자열만들기 {
 	    	for(int i = 0; i < cArr.length; i++) {
 	    		if(!flag && 97 <= (int)cArr[i] && (int)cArr[i] <= 122) {
 	    			cArr[i] = (char)((int)cArr[i] - 32);
+	    		}else if(flag && 65 <= (int)cArr[i] && (int)cArr[i] <= 90) {
+	    			cArr[i] = (char)((int)cArr[i] + 32);
 	    		}
 	    		
 	    		if(cArr[i] == ' ') {
@@ -17,7 +19,7 @@ public class q12951_JadenCase문자열만들기 {
 	    		}
 	    	}
 	    	
-	    	return cArr.toString();
+	    	return new String(cArr);
 	    }
 	}
 }
