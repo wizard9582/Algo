@@ -1,19 +1,37 @@
 import sys
 
 N = int(sys.stdin.readline())
-boxs = list(map(int, sys.stdin.readline().split(' ')))
-dp = [1] * N
+color = []
+answer = [0, 0]
+# white = 0, blue = 1
 
-answer = 0
+for i in range(N):
+    color.append(list(map(int, sys.stdin.readline().split(' '))))
 
-for n in range(0,N):
-    Max = 1
-    for m in range(0,n):
-        if(boxs[m] < boxs[n]):
-            Max = max(Max, dp[m]+1)
-    dp[n] = Max
+def dnc(x, y, s):
+    if s == 1:
+        answer[color[x][y]] += 1
+        return
 
-for n in range(0,N):
-    answer = max(answer, dp[n])
+    c, flag = color[x][y], True
+    for i in range(s):
+        for j in range(s):
+            if color[x + i][y + j] != c:
+                flag = False
+                break
+        if not flag:
+            break
+    
+    if flag:
+        answer[c] += 1
+    else:
+        s //= 2
+        dnc(x, y, s)
+        dnc(x + s, y, s)
+        dnc(x, y + s, s)
+        dnc(x + s, y + s, s)
+        
 
-print(answer)
+dnc(0, 0, N)
+print(f"{answer[0]}\n{answer[1]}")
+
