@@ -15,3 +15,5 @@ def solution(number, limit, power):
             answer += power
             
     return answer
+
+    return sum([arr[i] if arr[i] <= limit else power for i in range(1, number + 1)])
